@@ -35,3 +35,39 @@ let number = 33
 let stringNumber = String(number)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ********************************* Operations **********************************
+
+let value = 3
+let Negvalue = -value
+console.log(Negvalue);
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 3);
+// console.log(2 / 3);
+// console.log(2 % 3);
+
+let str1 = "Hello"
+let str2 = " Brajesh"
+
+console.log(str1 + str2);
+
+
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + "2");
+console.log(1 + 2 + "5");
+
+
+
+// console.log(+true);   => 1
+// console.log(+"");     => 0
+
+// Prefix & Postfix increment
+
+let gameScore = 100
+gameScore ++;                   // Postfix
+++ gameScore;                   // Prefix
+console.log(gameScore);
